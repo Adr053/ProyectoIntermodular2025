@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5; /* Fondo general de color suave */
+  color: #333;
+}
+
+header {
+  background-color: #f8e0a6; /* Color cálido para la cabecera */
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('panaderia.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-blur: 10px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff6e5; /* Color suave de fondo para las secciones */
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productos-lista {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.producto {
+  width: 30%;
+  background-color: #fff; /* Fondo blanco para cada producto */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05); /* Efecto hover para hacer más interactivo */
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+}
+
+.producto h3 {
+  font-size: 1.3em;
+  padding: 15px;
+  background-color: #f8e0a6; /* Color cálido en los títulos de los productos */
+  margin: 0;
+}
+
+.producto p {
+  padding: 10px 15px;
+  color: #666;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #e67e22;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d35400;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
